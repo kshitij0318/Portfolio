@@ -1,8 +1,5 @@
 import Image from 'next/image';
 import { AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillGithub } from 'react-icons/ai';
-
-const deved = '/path/to/image.jpg'; // Replace with the actual path to the image
-
 const About = () => {
     return (
         <div className="bg-black p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
@@ -19,16 +16,16 @@ const About = () => {
                     to real-world challenges in dynamic and growth-oriented environments.
                 </p>
                 <div className="text-5xl flex justify-center md:justify-start gap-16 py-3 text-white">
-                    <a href="https://www.instagram.com/kshitij_gurbuxani/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500] hover:text-teal-400">
+                    <a href="https://www.instagram.com/kshitij_gurbuxani/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500]">
                         <AiFillInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/kshitij-gurbuxani/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500] hover:text-teal-400">
+                    <a href="https://www.linkedin.com/in/kshitij-gurbuxani/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500]">
                         <AiFillLinkedin />
                     </a>
-                    <a href="https://x.com/Kshitij_1803" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600 hover:text-[#FF6500] ">
+                    <a href="https://x.com/Kshitij_1803" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500] ">
                         <AiFillTwitterCircle />
                     </a>
-                    <a href="https://github.com/kshitij0318" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600 hover:text-[#FF6500] ">
+                    <a href="https://github.com/kshitij0318" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6500] ">
                         <AiFillGithub />
                     </a>
                 </div>
