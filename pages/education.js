@@ -21,7 +21,7 @@ const Education = () => {
                     <li className="p-6 w-full sm:w-1/2 md:w-1/3 bg-[#16423C] rounded-lg shadow-md hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
                         <div>
                             <h3 className="text-2xl font-semibold text-yellow-600">10th DPS Greater Noida (2020)</h3>
-                            <p className="text-yellow-600">Academic Marks: 100%</p>
+                            <p className="text-yellow-600">Academic Marks: 85%</p>
                         </div>
                     </li>
                 </ul>
